@@ -1,0 +1,44 @@
+.bg-container {
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+}
+.heading {
+  color: white;
+  font-size: 40px;
+}
+.phrase {
+  color: white;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+input {
+  background-color: transparent;
+  border-width: 0px;
+  border: 1px solid #e4e7eb;
+  color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.btn {
+  height: 30px;
+  width: 140px;
+  padding: 5px;
+  background-color: white;
+  color: #219a6f;
+  border-width: 0px;
+  border-radius: 5px;
+}
+.img {
+  min-height: 200px;
+  min-width: 800px;
+}
